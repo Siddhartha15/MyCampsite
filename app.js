@@ -54,8 +54,8 @@ app.use(function(req,res,next){
 
 
 // DataBase config
-mongoose.connect('mongodb://localhost:27017/yelp_camp_v8', { useNewUrlParser: true });
-// mongoose.connect('mongodb+srv://siddhartha15:15021998@sd@cluster0-4gcce.mongodb.net/yelp_camp?retryWrites=true&w=majority');
+// mongoose.connect('mongodb://localhost:27017/yelp_camp_v8', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://siddhartha15:15021998@sd@cluster0-4gcce.mongodb.net/yelp_camp?retryWrites=true&w=majority');
 mongoose.connection.once('open',()=>{
 	console.log("connection Made");
 });
