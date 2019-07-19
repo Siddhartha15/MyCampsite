@@ -6,4 +6,4 @@
 * Used MongoDB Atlas for DataBase-as-service.
 * Dummy data has been uploaded for development purpose.
 
-* Checkout [this](https://github.com/Siddhartha15/WebDev-practice) repo for in detail development process.
+### Checkout [this](https://github.com/Siddhartha15/WebDev-practice) repo for in detail development process.
